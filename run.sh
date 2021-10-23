@@ -6,4 +6,5 @@ docker run --gpus all \
     -e PULSE_SERVER \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v /mnt/wslg:/mnt/wslg \
+    -v /usr/lib/wsl:/usr/lib/wsl \
     -i -t gpu_docker_wslg
